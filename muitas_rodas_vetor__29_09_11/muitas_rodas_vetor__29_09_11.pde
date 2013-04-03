@@ -46,7 +46,7 @@ void roda(float x, float y, float t, float linha) {
   strokeWeight (linha);
   translate(x, y);
   rotate(x/50.0);
-  fill(255);
+  fill(255, 255, 0);
   ellipse(0,0, t, t);
   fill(0);
   ellipse(20,0,10,10);
